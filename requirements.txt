@@ -1,9 +1,4 @@
-ollama
-chromadb
-langchain
-langchain-core
-langchain-ollama
-langchain-community
-langchain_text_splitters
-unstructured
-fastembed
+sentence-transformers
+scikit-learn
+requests
+numpy
