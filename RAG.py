@@ -34,8 +34,6 @@ class RAGapp:
 
     def create_custom_model(self):
         print(f'Creating custom model in Ollama: {self.custom_model_name}...')
-
-        print(MODELFILE)
         with open('modelfile', 'w') as f:
             f.write(MODELFILE)
 

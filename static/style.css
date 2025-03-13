@@ -1,0 +1,69 @@
+body {
+    background-color: #f5f7fb;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#chat-container {
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.user-message, .ai-message, .system-message {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: white;
+    margin-left: auto;
+}
+
+.ai-message {
+    background-color: #f1f1f1;
+    margin-right: auto;
+}
+
+.system-message {
+    background-color: #e9ecef;
+    color: #495057;
+    margin: 10px auto;
+    text-align: center;
+    font-style: italic;
+    max-width: 100%;
+}
+
+.source-reference {
+    margin-top: 10px;
+    border-top: 1px solid #dee2e6;
+    padding-top: 8px;
+}
+
+.source-item {
+    background-color: #e9f7fe;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.source-item .source-file {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.source-item .similarity {
+    float: right;
+    color: #6c757d;
+    font-size: 0.85em;
+}
